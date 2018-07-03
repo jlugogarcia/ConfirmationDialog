@@ -9,10 +9,10 @@
 
         If (inpHide.Value = "true") Then
             'Do something for the Yes operation
-            lblJSResult.Text = "The user clicked " & inpHide.Value
+            lblJSResult.Text = "The user clicked OK."
         Else
             'Do another thing for the No operation or leave it blank
-            lblJSResult.Text = "The user clicked " & inpHide.Value
+            lblJSResult.Text = "The user clicked Cancel."
         End If
 
         lblJSResult.Visible = True
