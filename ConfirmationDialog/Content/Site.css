@@ -27,3 +27,47 @@ textarea {
         padding: 0;
     }
 }
+
+/*Adjustment for Lead Action section*/
+.jumbotron {
+  padding: 30px; 
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #F9E2C9;  /*cheked for WCAG (Web Content Accessibility Guidelines) compliance*/
+  text-align: center;
+}
+
+/*Adjustment for Menu*/
+.navbar-nav {
+  /*margin: 8.5px -15px;*/
+  font-size: 17px;
+}
+
+/*Adjustment for Logo*/
+.navbar-brand {
+  float: left; 
+  padding: 6px 1px 1px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/*Adjustment for Menu text color*/
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+/*Adjustment for Menu text color hover*/
+.nav.navbar-nav.navbar-right li a:hover {
+    /*color: darkgray;*/
+    background-color: black;       
+}
+
+.col-centered{
+    margin: 0 auto;
+    float: none;
+    text-align: left;
+}
